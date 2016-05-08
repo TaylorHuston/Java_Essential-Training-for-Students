@@ -23,7 +23,7 @@ public class CollegeCost {
         total += tuition();
         total += booksAndSupplies();
 
-        System.out.printf("The total college cost will be: $7.2f ", total);
+        System.out.printf("The total college cost will be: $%7.2f ", total);
     }
 
     private static boolean onCampus() {
